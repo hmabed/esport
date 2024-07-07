@@ -2,13 +2,13 @@
 wp-config.php
 
 # Ignorer le contenu de wp-content/uploads
-wp-content/uploads/
+#wp-content/uploads/
 
 # Ignorer les plugins téléchargés
-wp-content/plugins/*
+#wp-content/plugins/*
 
 # Versionner seulement vos plugins personnalisés
-!wp-content/plugins/my-custom-plugin/
+#!wp-content/plugins/my-custom-plugin/
 
 # Ignorer les fichiers de log, cache, etc.
 *.log
