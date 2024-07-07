@@ -1,0 +1,20 @@
+# Ignorer les fichiers sensibles
+wp-config.php
+
+# Ignorer le contenu de wp-content/uploads
+wp-content/uploads/
+
+# Ignorer les plugins téléchargés
+wp-content/plugins/*
+
+# Versionner seulement vos plugins personnalisés
+!wp-content/plugins/my-custom-plugin/
+
+# Ignorer le répertoire des thèmes sauf votre thème personnalisé
+wp-content/themes/*
+!wp-content/themes/my-custom-theme/
+
+# Ignorer les fichiers de log, cache, etc.
+*.log
+cache/
+
